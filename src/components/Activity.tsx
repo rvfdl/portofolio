@@ -1,4 +1,3 @@
-import React from "react";
 import specialskill from "../assets/specialskill.jpg"
 
 interface ActivityItemProps {
