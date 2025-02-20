@@ -1,4 +1,3 @@
-import React from 'react'
 import lookraflogo from '../assets/lookraf.jpg'
 import webku from '../assets/webku.jpg'
 
