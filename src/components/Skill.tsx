@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Skill = () => {
   return (
     <div className='nunito-sans font-semibold pb-30'>
