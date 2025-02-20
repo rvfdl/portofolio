@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Navbar = () => {
   return (
     <div className='pt-10 w-max hidden md:block'>
