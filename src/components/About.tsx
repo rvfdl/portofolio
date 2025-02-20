@@ -1,4 +1,3 @@
-import React from 'react'
 import profil from "../assets/profilgw.jpg"
 
 const About = () => {
