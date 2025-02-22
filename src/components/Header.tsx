@@ -1,4 +1,5 @@
 import Navbar from './Navbar'
+import cvku from 'public/files/Dani Pratama CV IDN.pdf'
 import { InteractiveHoverButton } from './ui/interactive-hover-button'
 
 const Header = () => {
@@ -11,7 +12,9 @@ const Header = () => {
             <h2 className='nunito-sans font-bold text-xl py-2 text-slate-100'>UI/UX Designer | Front End Engineer</h2>
             <p className='nunito-sans font-semibold text-sm mr-30 text-slate-300'>Student want to be UI/UX Designer. Currently i am learning about UX Writing and Resposive Design.</p>
             <div className='py-4'>
-                <InteractiveHoverButton/>
+                <a href={cvku}>
+                    <InteractiveHoverButton/>
+                </a>
             </div>
             <Navbar/>
         </div>
