@@ -41,7 +41,7 @@ const Project = () => {
             <div className='w-2/3 text-slate-100'>
               <h3 className='text-md nunito-sans font-bold'>My Portofolio</h3>
               <p className='text-gray-400 mt-2 max-w-lg text-sm nunito-sans font-medium'>
-                It is a personal portfolio website that contains skills and projects that have been done.
+                This is a personal portfolio website that contains skills and projects that have been done.
               </p>
               <a 
                 href='#' 
