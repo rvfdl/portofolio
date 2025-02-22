@@ -1,6 +1,6 @@
-import Navbar from './Navbar'
-import cvku from 'public/files/Dani Pratama CV IDN.pdf'
 import { InteractiveHoverButton } from './ui/interactive-hover-button'
+import Navbar from './Navbar'
+import cvku from '../assets/files/Dani Pratama CV IDN.pdf'
 
 const Header = () => {
   return (
