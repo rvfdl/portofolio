@@ -31,6 +31,11 @@ const Activity: React.FC = () => {
       title: "Intensive Camp UI/UX Design",
       description: "UI/UX Design: Introduction to UI/UX Design, UX Writing, and Responsive Design. Hands-on mentoring with real projects.",
     },
+    {
+      imageSrc: specialskill,
+      title: "Bootcamp Graphic Design With Figma",
+      description: "Learn Graphic Design Fundamental, Layouting, Design System, Coloring, Typography, Plugin in Figma and real projects.",
+    },
   ];
 
   return (
