@@ -22,7 +22,7 @@ const Project = () => {
             <div className='w-2/3 text-slate-100'>
               <h3 className='text-md nunito-sans font-bold'>Website LooKraf</h3>
               <p className='text-gray-400 mt-2 max-w-lg text-sm nunito-sans font-medium'>
-              Website for logo creation service providers. 
+              Logo Design service website that I manage myself. 
               </p>
               <a 
                 href='https://lookraf.vercel.app/' target='_blank'
