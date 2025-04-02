@@ -8,9 +8,6 @@ const Footer = () => {
         <div className='pt-5'>
           <Button className='text-slate-100 nunito-sans font-medium' onClick={() => window.open('https://wa.me/6285747485067', '_blank')}>Lets's Go</Button>
         </div>
-        <div className='pt-5'>
-          <Button className='text-slate-100 nunito-sans font-medium' onClick={() => window.open('https://link.dana.id/danakaget?c=sd4xwxlkt&r=hKBIUt&orderId=20250331101214333315010300166431516667323', '_blank')}>TeHaeR</Button>
-        </div>
       </div>
       <div>
         <p className='nunito-sans font-light py-5'>© 2025 Dani Pratama. All rights reversed.</p>
