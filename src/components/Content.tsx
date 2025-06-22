@@ -1,5 +1,6 @@
 import About from './About'
 import Project from './Project'
+import Logo from './Project-Logo'
 import Skill from './Skill'
 import Footer from './Footer'
 import Activity from './Activity'
@@ -11,6 +12,7 @@ const Content = () => {
         <About/>
         <Skill/>
         <Project />
+        <Logo />
         <Activity />
         <Footer/>
       </div>
