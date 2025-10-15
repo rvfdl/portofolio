@@ -1,5 +1,6 @@
 import { JSX } from "react";
 import logods from "../assets/LOGO BG BLACK.png"
+import logopondasi from "../assets/pondasi.png"
 
 interface ActivityItemProps {
   imageSrc: string;
@@ -35,6 +36,23 @@ const Activity: React.FC = () => {
           rel="noopener noreferrer"
         >
           Let's Join
+        </a>
+      </>
+    ),
+    },
+    {
+      imageSrc: logopondasi,
+      title: "Poros Harapan dan Aksi(PONDASI)",
+      description: (
+      <>
+        Logo for a Student Community Supporting Housing Issues.{" "}
+        <a
+          href="https://www.instagram.com/pondasi.jogja/"
+          className="text-blue-300 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Let's Check
         </a>
       </>
     ),

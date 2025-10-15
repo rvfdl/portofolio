@@ -1,4 +1,4 @@
-import profil from "../assets/profilgw.jpg"
+import profil from "../assets/profilgw2.jpg"
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <div id='about' className=''>
         <h2 className='nunito-sans font-bold uppercase tracking-widest pb-5 text-slate-100'>About Me</h2>
       </div>
-      <p className='nunito-sans font-medium text-slate-300'>Currently attending SMK Negeri 2 Yogyakarta as a 12th grade student majoring in Network Information Systems and Applications (SIJA), which focuses on building, managing, and securing computer networks, as well as developing software applications. Mastering tools in Figma for web design and Adobe Illustrator tools for making posters and designing logos, as well as frontend technologies such as HTML, CSS, React and Tailwind CSS to create responsive websites.</p>
+      <p className='nunito-sans font-medium text-slate-300'>Currently attending SMK Negeri 2 Yogyakarta as a 13th grade student majoring in Network Information Systems and Applications (SIJA), which focuses on building, managing, and securing computer networks, as well as developing software applications. Mastering tools in Figma for web design and Adobe Illustrator tools for making posters and designing logos, as well as frontend technologies such as HTML, CSS, React and Tailwind CSS to create responsive websites.</p>
     </div>
   )
 }

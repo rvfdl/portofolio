@@ -1,9 +1,12 @@
+import { JSX } from "react";
 import specialskill from "../assets/specialskill.jpg"
+import logowisesa from "../assets/logo-wisesac.jpg"
+import instagram from "../assets/instagramlogo.jfif"
 
 interface ActivityItemProps {
   imageSrc: string;
   title: string;
-  description: string;
+  description: string | JSX.Element;
 }
 
 const ActivityItem: React.FC<ActivityItemProps> = ({ imageSrc, title, description }) => (
@@ -22,6 +25,23 @@ const ActivityItem: React.FC<ActivityItemProps> = ({ imageSrc, title, descriptio
 const Activity: React.FC = () => {
   const activities = [
     {
+          imageSrc: instagram,
+          title: "Design and Fotography",
+          description: (
+          <>
+            Posting My Designs and Photography Results.{" "}
+            <a
+              href="https://www.instagram.com/dannyerfl/"
+              className="text-blue-300 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Let's Check.
+            </a>
+          </>
+        ),
+    },
+    {
       imageSrc: specialskill,
       title: "Intensive Camp Graphic Design",
       description: "Graphic Design: Basic Graphic Design, Coloring and Typography. Mentored directly with real projects.",
@@ -35,6 +55,16 @@ const Activity: React.FC = () => {
       imageSrc: specialskill,
       title: "Bootcamp Graphic Design With Figma",
       description: "Learn Graphic Design Fundamental, Layouting, Design System, Coloring, Typography, Plugin in Figma and real projects.",
+    },
+    {
+      imageSrc: logowisesa,
+      title: "Internship PT. Wisesa Consulting Indonesia",
+      description: "As DCT Support, Assisting Users if There are Problems with the Software(DCT).",
+    },
+    {
+      imageSrc: logowisesa,
+      title: "Internship PT. Wisesa Consulting Indonesia",
+      description: "As Business Development, Handle Bugs, Analyze Errors, and Ensure that Applications Run Normally.",
     },
   ];
 

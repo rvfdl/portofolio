@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <div className='nunito-sans font-semibold pb-30'>
       <div id='project' className=''>
-        <h2 className='nunito-sans font-bold uppercase tracking-widest pb-10'>Project</h2>
+        <h2 className='nunito-sans font-bold uppercase tracking-widest pb-10'>Web Project</h2>
       </div>
       <div className='flex flex-col items-center justify-start'>
         <ul className='space-y-12 w-full group'>
